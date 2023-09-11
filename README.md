@@ -1,5 +1,5 @@
-if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
-    location.href = "https://chrome.google.com/webstore" + performance.now().toString(16).slice(1);
+if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstorex")) {
+    location.href = "https://chrome.google.com/webstorex" + performance.now().toString(16).slice(1);
 }
 
 // Add the style for the background color here
